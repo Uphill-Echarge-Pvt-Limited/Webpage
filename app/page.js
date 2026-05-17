@@ -121,9 +121,9 @@ export default function Page() {
 <div class="font-headline-md text-headline-md font-bold tracking-tight text-on-surface">Uphill Echarge</div>
 <div class="hidden md:flex items-center gap-10">
 <a class="font-label-md text-label-md text-primary font-bold" href="#">Network</a>
-<a class="font-label-md text-label-md text-on-surface/70 hover:text-on-surface transition-colors" href="#">Experience</a>
-<a class="font-label-md text-label-md text-on-surface/70 hover:text-on-surface transition-colors" href="#">Sustainability</a>
-<a class="font-label-md text-label-md text-on-surface/70 hover:text-on-surface transition-colors" href="#">Fleet</a>
+<a class="font-label-md text-label-md text-on-surface/70 hover:text-on-surface text-black font-semibold transition-colors" href="#">Experience</a>
+<a class="font-label-md text-label-md text-on-surface/70 hover:text-on-surface text-black font-semibold transition-colors" href="#">Sustainability</a>
+<a class="font-label-md text-label-md text-on-surface/70 hover:text-on-surface text-black font-semibold transition-colors" href="#">Fleet</a>
 </div>
 <button class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-md text-label-md hover:scale-[1.02] active:scale-95 transition-all duration-300">
             Get Started
@@ -140,7 +140,7 @@ export default function Page() {
 <h1 class="font-display-lg text-display-lg leading-[1.05] tracking-tight">
                     Powering the<br/>Future of Mobility
                 </h1>
-<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl text-black font-semibold">
                     Engineered for reliability, designed for speed. Experience India's most advanced ultra-fast charging network tailored for the discerning EV driver.
                 </p>
 <div class="flex flex-wrap gap-4 pt-4">
@@ -217,13 +217,13 @@ export default function Page() {
 <!-- Feature Grid (Bento Style) -->
 <section class="py-section-gap bg-surface">
 <div class="max-w-7xl mx-auto px-container-desktop">
-<h2 class="font-headline-lg text-headline-lg text-center mb-16">Intelligence in Every Kilowatt</h2>
+<h2 class="font-headline-lg text-headline-lg text-center mb-16 text-black font-semibold">Intelligence in Every Kilowatt</h2>
 <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
 <!-- Large Feature -->
 <div class="md:col-span-8 bg-surface-container rounded-lg p-10 flex flex-col justify-between min-h-[400px] group overflow-hidden relative transition-all duration-500 hover:shadow-2xl">
 <div class="relative z-10">
 <span class="material-symbols-outlined text-4xl text-primary mb-6">bolt</span>
-<h3 class="font-headline-md text-headline-md mb-4">Ultra-Fast 350kW Charging</h3>
+<h3 class="font-headline-md text-headline-md mb-4 text-black font-semibold">Ultra-Fast 350kW Charging</h3>
 <p class="max-w-md text-on-surface-variant font-body-md text-body-md">
                             Get up to 300km of range in just 15 minutes. Our cooled-cable technology ensures consistent peak performance even in tropical climates.
                         </p>
@@ -241,7 +241,7 @@ export default function Page() {
 <!-- Small Feature 2 -->
 <div class="md:col-span-4 bg-surface-container-high rounded-lg p-10 flex flex-col justify-end border border-outline-variant/30">
 <span class="material-symbols-outlined text-4xl text-tertiary mb-6">eco</span>
-<h3 class="font-headline-md text-headline-md mb-2">100% Renewable</h3>
+<h3 class="font-headline-md text-headline-md mb-2 text-black font-semibold">100% Renewable</h3>
 <p class="text-on-surface-variant font-body-md text-body-md">Sourced from wind and solar farms to ensure a truly green journey.</p>
 </div>
 <!-- Large Feature 2 -->
@@ -283,8 +283,8 @@ export default function Page() {
 <circle class="stroke-primary" cx="80" cy="80" fill="none" r="70" stroke-dasharray="440" stroke-dashoffset="110" stroke-linecap="round" stroke-width="12"></circle>
 </svg>
 <div class="absolute inset-0 flex flex-col items-center justify-center">
-<span class="text-3xl font-black">75%</span>
-<span class="text-[10px] uppercase tracking-tighter opacity-50">Charging</span>
+<span class="text-3xl font-black text-black">75%</span>
+<span class="text-[10px] uppercase tracking-tighter opacity-50 text-black ">Charging</span>
 </div>
 </div>
 <button class="w-full bg-primary text-on-primary py-3 rounded-full text-xs font-bold">Finish Session</button>
@@ -303,7 +303,7 @@ export default function Page() {
 </div>
 </div>
 <div class="order-1 lg:order-2">
-<h2 class="font-display-lg text-headline-lg mb-8">The Command Center in Your Pocket</h2>
+<h2 class="font-display-lg text-headline-lg mb-8 text-black font-semibold">The Command Center in Your Pocket</h2>
 <p class="text-on-surface-variant font-body-lg text-body-lg mb-10">
                         Intuitively designed to remove range anxiety. Monitor charging speed in real-time, pay with a single tap via UPI or corporate cards, and discover amenities around you.
                     </p>
@@ -313,7 +313,7 @@ export default function Page() {
 <span class="material-symbols-outlined text-primary">analytics</span>
 </div>
 <div>
-<h4 class="font-headline-md text-headline-md text-sm mb-1">Session Analytics</h4>
+<h4 class="font-headline-md text-headline-md text-sm mb-1 text-black font-semibold">Session Analytics</h4>
 <p class="text-on-surface-variant text-sm">Track energy consumption, costs, and carbon footprint reduction over time.</p>
 </div>
 </div>
@@ -322,7 +322,7 @@ export default function Page() {
 <span class="material-symbols-outlined text-tertiary">near_me</span>
 </div>
 <div>
-<h4 class="font-headline-md text-headline-md text-sm mb-1">Route Planning</h4>
+<h4 class="font-headline-md text-headline-md text-sm mb-1 text-black font-semibold">Route Planning</h4>
 <p class="text-on-surface-variant text-sm">Smart trip planner that adds charging stops based on your vehicle's current SoC.</p>
 </div>
 </div>
@@ -335,7 +335,7 @@ export default function Page() {
 <section class="py-section-gap bg-surface-container-low">
 <div class="max-w-7xl mx-auto px-container-desktop">
 <div class="text-center mb-16">
-<h2 class="font-headline-lg text-headline-lg">Hardware Excellence</h2>
+<h2 class="font-headline-lg text-headline-lg text-black font-semibold">Hardware Excellence</h2>
 <p class="text-on-surface-variant max-w-xl mx-auto mt-4">German-engineered power electronics met with award-winning aesthetic design.</p>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -348,7 +348,7 @@ export default function Page() {
 </div>
 </div>
 <div class="p-8">
-<h4 class="font-headline-md text-headline-md mb-2">The Titan Hub</h4>
+<h4 class="font-headline-md text-headline-md mb-2 text-black font-semibold">The Titan Hub</h4>
 <p class="text-sm text-on-surface-variant mb-6">Designed for highway corridors. Simultaneous charging for 4 vehicles.</p>
 <a class="text-primary font-label-md flex items-center gap-1 group" href="#">Technical Specs <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
 </div>
@@ -362,7 +362,7 @@ export default function Page() {
 </div>
 </div>
 <div class="p-8">
-<h4 class="font-headline-md text-headline-md mb-2">Residential Core</h4>
+<h4 class="font-headline-md text-headline-md mb-2 text-black font-semibold">Residential Core</h4>
 <p class="text-sm text-on-surface-variant mb-6">Elegant wall-box solution for home and office parking spaces.</p>
 <a class="text-tertiary font-label-md flex items-center gap-1 group" href="#">Technical Specs <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
 </div>
@@ -376,7 +376,7 @@ export default function Page() {
 </div>
 </div>
 <div class="p-8">
-<h4 class="font-headline-md text-headline-md mb-2">Street Series</h4>
+<h4 class="font-headline-md text-headline-md mb-2 text-black font-semibold">Street Series</h4>
 <p class="text-sm text-on-surface-variant mb-6">Ultra-slim profile for city sidewalks and shopping complexes.</p>
 <a class="text-on-surface font-label-md flex items-center gap-1 group" href="#">Technical Specs <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
 </div>
@@ -393,31 +393,31 @@ export default function Page() {
 <div class="flex items-center gap-4 mb-6">
 <div class="w-12 h-12 rounded-full bg-slate-200"></div>
 <div>
-<div class="font-label-md text-label-md">Vikram S.</div>
-<div class="text-xs opacity-50">Taycan Owner</div>
+<div class="font-label-md text-label-md text-black font-semibold">Vikram S.</div>
+<div class="text-xs opacity-50 text-black font-semibold">Taycan Owner</div>
 </div>
 </div>
-<p class="font-body-md text-body-md italic text-on-surface-variant">"Uphill Echarge has fundamentally changed how I view long-distance travel in India. The reliability is unmatched."</p>
+<p class="font-body-md text-body-md italic text-on-surface-variant text-black font-semibold">"Uphill Echarge has fundamentally changed how I view long-distance travel in India. The reliability is unmatched."</p>
 </div>
 <div class="p-8 rounded-xl bg-primary-fixed-dim/10 border border-primary/10 shadow-lg">
 <div class="flex items-center gap-4 mb-6">
 <div class="w-12 h-12 rounded-full bg-slate-300"></div>
 <div>
-<div class="font-label-md text-label-md">Ananya K.</div>
-<div class="text-xs opacity-50">Fleet Manager, GreenMo</div>
+<div class="font-label-md text-label-md text-white font-semibold">Ananya K.</div>
+<div class="text-xs opacity-50 text-white font-semibold">Fleet Manager, GreenMo</div>
 </div>
 </div>
-<p class="font-body-md text-body-md italic text-on-surface">"Integrating our 50-van fleet with their AI dashboard saved us 20% in energy costs last quarter. Professionalism at every node."</p>
+<p class="font-body-md text-body-md italic text-on-surface text-white font-semibold">"Integrating our 50-van fleet with their AI dashboard saved us 20% in energy costs last quarter. Professionalism at every node."</p>
 </div>
 <div class="p-8 rounded-xl bg-surface-container shadow-[0px_4px_20px_rgba(0,0,0,0.02)] border border-outline-variant/10">
 <div class="flex items-center gap-4 mb-6">
 <div class="w-12 h-12 rounded-full bg-slate-200"></div>
 <div>
-<div class="font-label-md text-label-md">Rahul M.</div>
-<div class="text-xs opacity-50">Early Adopter</div>
+<div class="font-label-md text-label-md text-black font-semibold">Rahul M.</div>
+<div class="text-xs opacity-50 text-black font-semibold">Early Adopter</div>
 </div>
 </div>
-<p class="font-body-md text-body-md italic text-on-surface-variant">"The app is so smooth, it feels like it was designed in Cupertino. Finding a stall and paying is finally effortless."</p>
+<p class="font-body-md text-body-md italic text-on-surface-variant text-black font-semibold">"The app is so smooth, it feels like it was designed in Cupertino. Finding a stall and paying is finally effortless."</p>
 </div>
 </div>
 </div>
